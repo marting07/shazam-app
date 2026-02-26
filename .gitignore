@@ -1,0 +1,25 @@
+.idea/
+.venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# macOS
+.DS_Store
+
+# Generated audio fingerprints / temporary outputs
+music_db/fingerprints.pkl
+tmp/
+outputs/
+
+# Local datasets (keep out of git; may be large)
+data/
+datasets/
+fma_*/
